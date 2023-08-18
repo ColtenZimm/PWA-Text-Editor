@@ -4,8 +4,18 @@ const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
 // TODO: Add and configure workbox plugins for a service worker and manifest file.
+const {GenerateSW} = require('workbox-webpack-plugin');
 // TODO: Add CSS loaders and babel to webpack.
-
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+};
 module.exports = () => {
   return {
     mode: 'development',
