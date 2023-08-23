@@ -82,7 +82,7 @@ https://progressive-pwa-38c931beffdd.herokuapp.com/
 
 ## Credits
 
-Completed individually using starter code by: Emmanuel Lakis (https://github.com/pexApred)
+Completed individually using starter code by: Colten Zimmerman
 
 ## License
 
